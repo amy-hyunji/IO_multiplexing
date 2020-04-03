@@ -1,12 +1,12 @@
 ## 1. Introduction
-In this assignment, you need to design and implement a web server which is not only running with multi-threads but also uses I/O multiplexing to handle concurrent requests from clients. Your ultimate goal is to build a high-performance web server that can process about 100,000 requests per second. There are two required programs; 
+Design and implement a web server which is not only running with multi-threads but also uses I/O multiplexing to handle concurrent requests from clients. Your ultimate goal is to build a high-performance web server that can process about 100,000 requests per second. 
 
 ### (1) an event-based server with I/O multiplexing to handle requests, and 
-Bootstrapping: Your server should make inverted index of words in all documents in the folder. This should be done when the server is started, and the server should store the generated indices in the memory. (It is the same with HW1)
+Bootstrapping: Your server should make inverted index of words in all documents in the folder. This should be done when the server is started, and the server should store the generated indices in the memory. 
 Searching: Your server program should be able to handle large number of request with multi-thread, and it should response relevant documents and lines by the queried words.
-### (2) 2 client programs that send multiple requests to a Web server. 
 
-You will implement multi-thread text search server to handle large number of search requests from multiple clients. The implementation may contain two main parts.
+### (2) 2 client programs that send multiple requests to a Web server. 
+multi-thread text search server to handle large number of search requests from multiple clients. The implementation may contain two main parts.
 
 ## 2. Server
 ### (1) Bootstrapping
